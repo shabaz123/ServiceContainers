@@ -1,6 +1,6 @@
 #!/usr/bin/nodejs
 
-console.log("Hello");
+console.log("Hello!");
 var app = require('http').createServer(handler);
 var child = require('child_process');
 app.listen(8090);
